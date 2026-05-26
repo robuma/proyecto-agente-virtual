@@ -12,9 +12,14 @@ La propuesta se centra en el diseño y evaluación de la viabilidad de un agente
 /
 ├── README.md
 ├── docs/
-│   └── Avance proyecto.pdf
+│   ├── Avance proyecto.pdf
+│   ├── Diseño del Protocolo de Evaluación y Matriz de Consistencia.pdf
+│   └── Guia_Procedimiento.html
 └── src/
 ```
 
-- **docs/**: contiene el documento de propuesta en PDF, nombrado **Avance proyecto.pdf**.
+- **docs/**: contiene la documentación del proyecto en PDF y HTML.
+- **Avance proyecto.pdf**: avance general del proyecto.
+- **Diseño del Protocolo de Evaluación y Matriz de Consistencia.pdf**: documento metodológico con el protocolo de evaluación y la matriz de consistencia.
+- **Guia_Procedimiento.html**: guía de procedimiento en formato HTML.
 - **src/**: contiene la estructura inicial del proyecto de código. Por el momento se mantiene vacía.

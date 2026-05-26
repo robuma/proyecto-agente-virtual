@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guía de Procedimiento del Investigador</title>
+    <style>
+      :root {
+        --primary: #0f3b82;
+        --primary-light: #2a5baa;
+        --bg-body: #f4f7f6;
+        --bg-card: #ffffff;
+        --text-main: #333333;
+        --text-muted: #666666;
+        --border-color: #e2e8f0;
+        --radius: 8px;
+        --shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+      }
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: "Inter", "Segoe UI", system-ui, sans-serif;
+        background-color: var(--bg-body);
+        color: var(--text-main);
+        line-height: 1.6;
+        padding: 40px 20px;
+        display: flex;
+        justify-content: center;
+      }
+      .container {
+        max-width: 800px;
+        width: 100%;
+      }
+      .card {
+        background: var(--bg-card);
+        border-radius: var(--radius);
+        box-shadow: var(--shadow);
+        padding: 40px;
+        border: 1px solid var(--border-color);
+      }
+      h1 {
+        color: var(--primary);
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+        border-bottom: 2px solid var(--primary-light);
+        padding-bottom: 10px;
+      }
+      h2 {
+        color: var(--primary-light);
+        font-size: 1.3rem;
+        margin-top: 30px;
+        margin-bottom: 15px;
+      }
+      h3 {
+        color: var(--text-main);
+        font-size: 1.1rem;
+        margin-top: 20px;
+        margin-bottom: 10px;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+      ul {
+        margin-bottom: 15px;
+        padding-left: 20px;
+      }
+      li {
+        margin-bottom: 8px;
+      }
+      .metadata-box {
+        background-color: #f8fafc;
+        border-left: 4px solid var(--primary);
+        padding: 15px;
+        margin-bottom: 30px;
+        border-radius: 0 var(--radius) var(--radius) 0;
+      }
+      .metadata-box p {
+        margin-bottom: 5px;
+        font-size: 0.95rem;
+      }
+      .metadata-box strong {
+        color: var(--primary);
+      }
+      .quote {
+        background-color: #f1f5f9;
+        font-style: italic;
+        padding: 15px;
+        border-radius: var(--radius);
+        margin: 15px 0;
+        color: #475569;
+      }
+      .checkbox-list {
+        list-style: none;
+        padding-left: 0;
+      }
+      .checkbox-list li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 10px;
+      }
+      .checkbox-list li::before {
+        content: "☐";
+        font-size: 1.2rem;
+        margin-right: 10px;
+        color: var(--primary-light);
+        line-height: 1.2;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h1>Guía de Procedimiento del Investigador</h1>
+        <p
+          style="
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            margin-bottom: 25px;
+          "
+        >
+          Estudio de Agentes Virtuales (Sesión Única)
+        </p>
+
+        <div class="metadata-box">
+          <p>
+            <strong>Estudio:</strong> Diseño y evaluación de la viabilidad de un
+            agente virtual para la atención inicial en los consultorios
+            jurídicos de la Facultad de Derecho de la Universidad de Costa Rica
+          </p>
+          <p><strong>Códigos de Proyecto:</strong></p>
+          <p><strong>Investigador: </strong>Luis Roberto Umaña Jiménez</p>
+          <p><strong>Unidad Ejecutora:</strong></p>
+        </div>
+
+        <h2>1. Resumen del Estudio y Preparación</h2>
+        <p>
+          Esta guía detalla el protocolo para evaluar la interacción de abogados
+          participantes con un agente virtual en una sesión única y controlada.
+          El estudio compara dos condiciones del mismo sistema: una versión con
+          avatar y voz (Condición A) y una versión solo texto (Condición B).
+        </p>
+
+        <h3>1.1 Checklist de Materiales</h3>
+        <ul class="checkbox-list">
+          <li>Copias impresas del Formulario de Consentimiento Informado.</li>
+          <li>
+            Computadora configurada y probada con la plataforma del agente.
+          </li>
+          <li>Audífonos con micrófono funcional y desinfectados.</li>
+          <li>Enlaces pre-cargados a los cuestionarios de evaluación.</li>
+          <li>Lista de participantes y registro de asistencia.</li>
+          <li>
+            Traer el AMPO (o archivo físico) para guardar las hojas de
+            consentimiento informado.
+          </li>
+        </ul>
+
+        <h2>2. Inducción y Bienvenida</h2>
+
+        <h3>2.1 Consentimiento Informado</h3>
+        <p><strong>Saludo:</strong></p>
+        <div class="quote">
+          "Hola, muchas gracias por participar. Mi nombre es Luis Roberto Umaña
+          Jiménez y estaré a cargo de esta sesión. El objetivo de esta actividad
+          es evaluar un agente virtual diseñado para apoyar la atención inicial
+          en los consultorios jurídicos mediante casos simulados."
+        </div>
+        <p><strong>Entrega del Consentimiento:</strong></p>
+        <div class="quote">
+          "Vamos a leer juntos este consentimiento informado. Es importante que
+          tenga presente que su participación es completamente voluntaria y que
+          puede retirarse en cualquier momento sin ninguna consecuencia."
+        </div>
+        <p>
+          <strong>Al terminar de leer (MUY IMPORTANTE DECIRLO TEXTUAL):</strong>
+        </p>
+        <div class="quote">
+          “Después de leer el consentimiento, ¿todavía desea participar del
+          estudio?”
+        </div>
+        <p>
+          <strong>Si la respuesta es afirmativa:</strong> Solicitar el documento
+          de identidad para verificar la mayoría de edad. Ambos firman dos
+          copias del ejemplar. Entregue una copia al participante. Registre el
+          ID del participante en su bitácora.
+        </p>
+
+        <h3>2.2 Orden de la Sesión</h3>
+        <p>
+          En esta sesión el abogado participante interactuará con ambas
+          condiciones del sistema en el siguiente orden:
+        </p>
+        <ul>
+          <li>
+            <strong>Condición A:</strong> Agente virtual con avatar y voz.
+          </li>
+          <li>
+            <strong>Condición B:</strong> Agente virtual en versión solo texto.
+          </li>
+        </ul>
+
+        <h3>2.3 Cuestionarios Iniciales</h3>
+        <p>
+          Solicite al abogado participante completar un breve cuestionario
+          inicial con información útil para el estudio, como años de experiencia
+          profesional, experiencia en atención consultorios jurídicos, y
+          familiaridad previa con herramientas tecnológicas o sistemas de
+          inteligencia artificial.
+        </p>
+
+        <h2>3. Fase de Interacción en Laboratorio</h2>
+
+        <h3>3.1 Instrucciones y Prueba de Audio</h3>
+        <p><strong>Investigador:</strong></p>
+        <div class="quote">
+          "A continuación, usted interactuará primero con la versión del agente
+          que incluye avatar y voz. Durante la sesión deberá resolver al menos 3
+          casos simulados de atención inicial jurídica. Por favor, utilice el
+          sistema de la forma más natural posible, como si estuviera realizando
+          una valoración inicial dentro del consultorio."
+        </div>
+        <p>
+          Realice una prueba rápida para asegurarse de que el micrófono capta la
+          voz correctamente y que el volumen de los audífonos es adecuado.
+        </p>
+        <p><strong>Explicación de la tarea:</strong></p>
+        <div class="quote">
+          "Durante esta actividad, usted interactuará directamente con el agente
+          virtual mientras yo me mantengo en observación y solo intervendré si
+          surge algún problema técnico. Una vez finalizada la primera parte, le
+          pediré completar unos instrumentos breves y luego continuaremos con la
+          segunda versión del agente. ¿Tiene alguna pregunta antes de comenzar?"
+        </div>
+
+        <h3>3.2 Desarrollo de la Sesión</h3>
+        <p>
+          El investigador se mantiene fuera del foco directo de la interacción
+          para no sesgar la sesión. El abogado participante interactúa primero
+          con la Condición A (avatar y voz) para resolver al menos 3 casos
+          simulados. Una vez finalizada esta fase, completa los instrumentos de
+          evaluación correspondientes. Posteriormente, realiza el mismo
+          procedimiento con la Condición B (solo texto), también con al menos 3
+          casos simulados.
+        </p>
+
+        <h2>4. Cierre del Estudio y Recolección de Datos</h2>
+
+        <h3>4.1 Cuestionarios Post-Interacción</h3>
+        <p>
+          Una vez finalizada cada condición, el investigador agradece al
+          participante y le solicita completar los instrumentos
+          correspondientes.
+        </p>
+        <p><strong>Investigador:</strong></p>
+        <div class="quote">
+          "Muchas gracias. Antes de continuar, le pediré que complete unos
+          cuestionarios breves sobre su experiencia con esta versión del agente.
+          Al finalizar, pasaremos a la siguiente condición."
+        </div>
+        <p>
+          Proporcione los enlaces o la tablet con los instrumentos
+          correspondientes. En este estudio se aplicará el cuestionario SUS para
+          valorar usabilidad, así como una rúbrica breve tipo Likert para
+          evaluar la corrección, coherencia y utilidad de las respuestas del
+          agente en cada condición.
+        </p>
+
+        <h3>4.2 Entrevista Cualitativa Breve</h3>
+        <p>
+          Al finalizar ambas condiciones, realice una entrevista estructurada
+          breve para profundizar en la percepción del abogado participante sobre
+          las diferencias entre ambas versiones del agente. Solicite permiso
+          para grabar el audio exclusivamente con fines de transcripción.
+        </p>
+
+        <div class="metadata-box">
+          <p><strong>Preguntas de apreciación cualitativa:</strong></p>
+          <ul>
+            <li>
+              "En términos generales, ¿cómo describiría su experiencia
+              interactuando con el agente virtual?"
+            </li>
+            <li>
+              "¿Qué diferencias percibió entre la versión con avatar y voz y la
+              versión solo texto?"
+            </li>
+            <li>
+              "¿Hubo algún aspecto de alguna de las dos versiones que le
+              pareciera especialmente útil o claro?"
+            </li>
+            <li>
+              "¿Hubo algún aspecto que le pareciera confuso, incómodo o poco
+              natural?"
+            </li>
+            <li>
+              "¿Considera que alguna de las dos versiones sería más adecuada
+              para un contexto de atención inicial en consultorios jurídicos?
+              ¿Por qué?"
+            </li>
+          </ul>
+        </div>
+
+        <h3>4.3 Despedida</h3>
+        <p>
+          Detenga la grabación. Agradezca profundamente su tiempo y
+          participación en la actividad.
+        </p>
+        <p><strong>Investigador:</strong></p>
+        <div class="quote">
+          "Muchas gracias por su participación y por el tiempo brindado en esta
+          actividad. Sus observaciones serán de gran utilidad para mejorar el
+          diseño y la evaluación del agente virtual. ¡Que tenga un excelente
+          día!"
+        </div>
+
+        <h2>5. Gestión Final de Datos y Respaldo</h2>
+        <p>Inmediatamente después de que el participante abandone la sesión:</p>
+        <ul>
+          <li>
+            <strong>Almacenamiento Seguro:</strong> Guarde el archivo de audio
+            de la entrevista y verifique que los logs de interacción del sistema
+            se hayan guardado correctamente bajo el ID del participante.
+          </li>
+          <li>
+            <strong>Anonimización:</strong> Confirme que todos los datos,
+            cuestionarios y registros estén vinculados únicamente al ID numérico
+            del participante y no a su nombre legal.
+          </li>
+          <li>
+            <strong>Limpieza:</strong> Desinfecte el equipo utilizado y prepare
+            el espacio para la siguiente sesión.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
